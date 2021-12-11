@@ -3,10 +3,10 @@ const St = imports.gi.St;
 const Meta = imports.gi.Meta;
 const Lang = imports.lang;
 const Main = imports.ui.main;
-const Tweener = imports.ui.tweener;
+const Tweener = imports.tweener.tweener;
 const Clutter = imports.gi.Clutter;
 
-const SHADE_TIME = 0.3;
+const SHADE_TIME = 0.15;
 const SHADE_BRIGHTNESS = -0.3;
 
 let on_window_created;
